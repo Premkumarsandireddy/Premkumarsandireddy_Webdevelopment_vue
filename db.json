@@ -1,0 +1,55 @@
+{"Stats":[{
+    "id":1,
+    "year":2023,
+    "country":"Australia",
+    "MostRuns":"Virat Kohli",
+    "MostWickets":"Mohammed Shami",
+    "PlayerOfTheTournament":"Virat Kohli",
+    "HostNation":"India",
+    "MostHundreds":"Quinton De Kock",
+    "HighestScorer":"Glenn Maxwell"
+},
+{
+    "id":2,
+    "year":2019,
+    "country":"England",
+    "MostRuns":"Rohit Sharma",
+    "MostWickets":"Mitchell Starc",
+    "PlayerOfTheTournament":"Kane Williamson",
+    "HostNation":"England",
+    "MostHundreds":"Rohit Sharma",
+    "HighestScorer":"David Warner"
+},
+{
+    "id":3,
+    "year":2015,
+    "country":"Australia",
+    "MostRuns":"Martin Guptil",
+    "MostWickets":"Mitchell Starc",
+    "PlayerOfTheTournament":"Mitchell Starc",
+    "HostNation":"Australia",
+    "MostHundreds":"Kumar Sangakara",
+    "HighestScorer":"Martin Guptil"
+},
+{
+    "id":4,
+    "year":2011,
+    "country":"India",
+    "MostRuns":"TM Dilshan",
+    "MostWickets":"Shahid Afridi",
+    "PlayerOfTheTournament":"Yuvaraj Singh",
+    "HostNation":"India",
+    "MostHundreds":"AB de villiers",
+    "HighestScorer":"Virendar Shewag"
+},
+{
+    "id":5,
+    "year":2007,
+    "country":"Australia",
+    "MostRuns":"Mattew Hayden",
+    "MostWickets":"Glenn Mcgrath",
+    "PlayerOfTheTournament":"Glenn Mcgrath",
+    "HostNation":"West Indies",
+    "MostHundreds":"Mattew Hayden",
+    "HighestScorer":"Imran Nazir"
+}]}

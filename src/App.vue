@@ -1,15 +1,34 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MyHeader Name="Cricket Worldcup Stats" myName="Sandireddy Prem Kumar" />
+  <StatsBox :Stats = Stats />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyHeader from './components/MyHeader.vue'
+import StatsBox from './components/StatsBox.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MyHeader,
+    StatsBox
+  },
+  data(){
+    return{
+      Stats:[]
+    }
+  },
+  methods:{
+    //promises
+    async fetchStats(){
+      const res = await fetch('https://world-cup-stats-node-server.onrender.com/api');
+      const data = await res.json();
+      return data
+    }
+  },
+
+  async created(){
+    this.Stats = await this.fetchStats();
   }
 }
 </script>
@@ -20,7 +39,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background-color:#DFD0B8
+}
+*{
+  margin: 0;
+  padding: 0;
+  
 }
 </style>
